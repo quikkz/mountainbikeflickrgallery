@@ -11,6 +11,6 @@ import retrofit2.http.POST;
 import retrofit2.http.Query;
 
 public interface IFlickrImageService {
-    @GET("?method=flickr.groups.pools.getPhotos&api_key=902e6435893b56351c894be1a213ecbd&group_id=96844556%40N00&format=json&nojsoncallback=1&auth_token=72157713683420368-ea7737875a308a72&api_sig=a40f5eb1a359b779d2c9f6e290ec25f7")
+    @GET("?method=flickr.groups.pools.getPhotos&api_key=708e061b07ea822dc935622973482b72&group_id=96844556%40N00&format=json&nojsoncallback=1&auth_token=72157713696496103-f6a6546b9dd86e56&api_sig=4fce63ec6670f14d682c4cb7c6884034")
     Call<FlickrImageResult> getFlickrImagesBasedOnGroupID();
 }
